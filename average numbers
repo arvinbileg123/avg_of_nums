@@ -1,0 +1,49 @@
+def avg_of_nums():
+    total=0
+    total=0
+
+
+    while True:
+        num = input("Enter a number (or 'stop' to finish); ")
+
+        if num == 'stop':
+            break
+
+
+        try:
+            num = float(num)
+        except ValueError:
+            print("invalid input,please enter a valid number.")
+        continue
+    
+    total += num
+    count += 1
+    
+    
+    if count == 0:
+        print("no numbers entered.")
+    else:
+        print(f"the average of the numbers is: {total/ count}")
+
+avg_of_nums()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
